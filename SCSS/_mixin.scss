@@ -1,0 +1,25 @@
+@mixin for-tab-only {
+  @media screen and (min-width: 470px) {
+    @content;
+  }
+}
+@mixin for-dekstop-portrait-up {
+  @media screen and (min-width: 700px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media screen and (min-width: 1120px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media screen and (min-width: 1800px) {
+    @content;
+  }
+}

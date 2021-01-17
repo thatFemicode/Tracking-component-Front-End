@@ -1,0 +1,18 @@
+.btn {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  background-color: map-get($map: $color, $key: "red");
+  font-size: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: map-get($map: $color, $key: background);
+  }
+}
